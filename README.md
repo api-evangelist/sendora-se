@@ -1,4 +1,4 @@
-# sendora-se
+# Sendora
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sendora-se is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sendora.se/
+Sendora AB provides a Swedish‑hosted transactional email service. It offers an API for sending emails, managing streams, broadcasts, webhooks, and SMTP submission. The platform includes a developer portal, documentation, pricing, and compliance pages such as terms, privacy, and data‑processing agreements. The service is operated in Sweden and targets developers needing reliable email delivery with SDKs for multiple languages.
+
+**Areas:** Email · Transactional · API · Sweden · SaaS
+
+## Sendora on APIs.io
+
+Everything profiled for Sendora is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sendora-se/](https://apis.io/providers/sendora-se/)** — or go straight to one of the APIs or properties below.
+
+### APIs (16)
+
+- [Sendora Broadcasts API](https://apis.io/apis/sendora-se/sendora-se-broadcasts-api/) — One message to many, sent as a broadcast.
+- [Sendora Domains API](https://apis.io/apis/sendora-se/sendora-se-domains-api/) — Sending domains and their two DNS records, under an account key.
+- [Sendora Erasures API](https://apis.io/apis/sendora-se/sendora-se-erasures-api/) — A person's data erased from every server of the account, under an account key.
+- [Sendora Inbound API](https://apis.io/apis/sendora-se/sendora-se-inbound-api/) — The mail the server has received: the messages, their raw form and their attachments.
+- [Sendora Keys API](https://apis.io/apis/sendora-se/sendora-se-keys-api/) — A server's own keys under one of them, up to two live at once; an account key manages them under /v1/servers/{id}/tokens, and the account's own keys are…
+- [Sendora Message events API](https://apis.io/apis/sendora-se/sendora-se-message-events-api/) — The Message events API from Sendora — 0 operation(s) for message events.
+- [Sendora Messages API](https://apis.io/apis/sendora-se/sendora-se-messages-api/) — The message log and each message’s timeline.
+- [Sendora Not-tracked list API](https://apis.io/apis/sendora-se/sendora-se-not-tracked-list-api/) — Addresses the server never tracks.
+- [Sendora Received mail API](https://apis.io/apis/sendora-se/sendora-se-received-mail-api/) — The Received mail API from Sendora — 0 operation(s) for received mail.
+- [Sendora Sending API](https://apis.io/apis/sendora-se/sendora-se-sending-api/) — Hand messages over for delivery.
+- [Sendora Servers API](https://apis.io/apis/sendora-se/sendora-se-servers-api/) — The account’s servers and each one’s keys, under an account key: a server is created with its first key and holds up to two. GET /v1/server takes a server…
+- [Sendora Streams API](https://apis.io/apis/sendora-se/sendora-se-streams-api/) — The streams of the server: transactional, broadcast, and at most one inbound.
+- [Sendora Suppressions API](https://apis.io/apis/sendora-se/sendora-se-suppressions-api/) — Addresses the server no longer sends to.
+- [Sendora The monthly cap API](https://apis.io/apis/sendora-se/sendora-se-the-monthly-cap-api/) — The The monthly cap API from Sendora — 0 operation(s) for the monthly cap.
+- [Sendora Tracking domains API](https://apis.io/apis/sendora-se/sendora-se-tracking-domains-api/) — The hosts that tracked links and the open pixel use, each a subdomain of a sending domain, under an account key.
+- [Sendora Webhooks API](https://apis.io/apis/sendora-se/sendora-se-webhooks-api/) — Where events are posted, signed with each of the webhook’s live secrets, and every delivery of them.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Sendora Se Webhooks](https://apis.io/asyncapis/sendora-se/sendora-se-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Sendora Agentic Access](https://apis.io/agentic-access/sendora-se/sendora-se-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Sendora API Rules](https://apis.io/rules/sendora-se/sendora-se-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sendora Authentication](https://apis.io/security/sendora-se/sendora-se-authentication/)
+- [Sendora Domain Security](https://apis.io/security/sendora-se/sendora-se-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Sendora Plans Pricing](https://apis.io/plans/sendora-se/sendora-se-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sendora.se/)
+- [Documentation](https://sendora.se/docs)
+- [Getting started](https://sendora.se/docs/quickstart)
+- [API reference](https://sendora.se/docs/openapi.json)
+- [Pricing](https://sendora.se/pricing)
+- [Support](https://sendora.se/contact)
+- [Changelog](https://sendora.se/docs/changelog)
+- [Terms of service](https://sendora.se/terms)
+- [Privacy policy](https://sendora.se/privacy)
+
+## API Evangelist rating
+
+**Kin Score 52.0** — developing · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 53.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.4 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 40.9 |
+
+**Agent readiness 59.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sendora-se/](https://apis.io/providers/sendora-se/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sendora: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sendora-se/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
